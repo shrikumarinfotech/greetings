@@ -5,3 +5,4 @@ Create a a greetings
 Fill the form up and submit
 
 # URL
+https://shrikumarinfotech.github.io/greetings/
