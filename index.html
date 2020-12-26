@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings</title>
+    <link rel="stylesheet" href="./includes/stylesheets/greetings-v1.0.0.css">
+</head>
+<body>
+    <!-- Greetings form -->
+    <div id="greetings-generator" class="greetings-generator">
+        <h1>Create your greetings:</h1>
+        <p><span class="asterix">*</span> marked fields are mandatory.</p>
+        <form id="greetings-form" method="POST">
+            <div class="form-row">
+                <label for="type">Select occasion:<span class="asterix">*</span></label>
+                <select name="type" class="input-text" required>
+                    <option>-- Select an option --</option>
+                    <option value="Christmas">Christmas</option>
+                    <option value="New Year">New Year</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="sendername">Your Name:<span class="asterix">*</span></label>
+                <input type="text" name="sendername" class="input-text" placeholder="Your Name" required>
+            </div>
+            <div class="form-row">
+                <label for="recepientname">Recipient Name:<span class="asterix">*</span></label>
+                <input type="text" name="recipientname" class="input-text" placeholder="Recipient Name" required>
+            </div>
+            <div class="form-row">
+                <label for="message">Message:</label>
+                <textarea class="input-text" name="message" placeholder="Your Message" rows="8"></textarea>
+            </div>
+            <div class="form-row">
+                <input type="submit" name="submit" class="submit-button" value="Submit">
+            </div>
+        </form>
+    </div>
+    <!-- Greetings display -->
+    <div id="greetings-wrapper" class="greetings-wrapper">
+        <div class="greeting-header">
+            <h2>Hello ...,</h2>
+            <p>...</p>
+        </div>
+        <div class="greeting-body">
+            <img src="./includes/images/greetings/christmas/christmas.gif" alt="Merry Christmas and Happy New Year" class="image-responsive">
+            <audio controls autoplay loop src="./includes/music/We-Wish-You-a-Merry-Christmas-Twin-Musicom.mp3">
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+        </div>
+        <div class="greeting-footer">
+            <p>From,</p>
+            <p><span class="sendername">...</span></p>
+            <div class="credits">
+                ...
+            </div>
+        </div>
+    </div>
+
+    <script src="./includes/javascripts/jquery-3.5.1.min.js"></script>
+    <script src="./greetings-v1.0.0.js"></script>
+</body>
+</html>

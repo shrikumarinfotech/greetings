@@ -1,0 +1,120 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-break: break-all;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    background-color: #ffffff;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+}
+
+/* Greetings form */
+#greetings-generator{
+    width: 640px;
+    margin: 0 auto;
+}
+
+#greetings-generator h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+#greetings-form label{
+    display: block;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.input-text{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+#greetings-form textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit-button{
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    background-color: #000000;
+    outline: none;
+    cursor: pointer;
+}
+
+.asterix{
+    color: #ff0000;
+}
+
+/* Greetings starts here */
+
+#greetings-wrapper{
+    display: none;
+    width: 640px;
+    margin: 0 auto;
+}
+
+.greeting-header{
+    width: 100%;
+}
+
+.greeting-header h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.greeting-body{
+    text-align: center;
+}
+
+.image-responsive{
+    width: 100%;
+}
+
+.greeting-footer{
+    font-size: 1.6rem;
+}
+
+.greeting-footer .credits{
+    margin-top: 30px;
+    border-top: 1px solid #e6e6e6;
+    font-size: 1.2rem;
+    color: #747474;
+    line-height: 1em;
+}
+
+.credits h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.credits p{
+    font-size: 1.2rem;
+    color: #747474;
+    line-height: 1em;
+}
