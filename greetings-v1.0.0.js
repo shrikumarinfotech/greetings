@@ -53,7 +53,8 @@ $(document).ready(function(){
             // console.log(formDataObject);
 
             // Display Greetings
-            greetings(formDataObject);
+            greetings(formDataObject).displayGreeting();
+
         });
         // -------------------------------------------------------
 
@@ -131,7 +132,7 @@ $(document).ready(function(){
             // Display Greeting
             greetingsWrapper.css('display', 'block');
         }
-        displayGreeting();
+        
     }
     
 
