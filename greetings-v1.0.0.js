@@ -110,7 +110,7 @@ $(document).ready(function(){
             // Display greetingImage
             greetingImage.attr('src', `./includes/images/greetings/christmas/christmas.gif`);
             // Add Greeting Audio
-            greetingAudio.attr('src', `./includes/music/We-Wish-You-a-Merry-Christmas-Twin-Musicom.mp3`);
+            greetingAudio.attr('src', `./includes/music/musicfile-name.mp3`);
             // -------------------------------------------------------
 
             // Display sender name
@@ -120,8 +120,7 @@ $(document).ready(function(){
             // Define function to load credits from JSON data depending on audio in database(On HTTP server mode under NodeJS environment)
             // Display Credits
             footerCredits.html(`<h3>Music Credits:</h3>
-            <p>We Wish You a Merry Christmas by Twin Musicom is licensed under a Creative Commons Attribution 4.0 licence. https://creativecommons.org/licenses/by/4.0/</p>
-            <p>Artist: http://www.twinmusicom.org/</p>`);
+            <p>Credits will come here...`);
             // -------------------------------------------------------
             
             // Test log
